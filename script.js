@@ -71,6 +71,9 @@ function funn(){
   document.querySelector(".input_area").value = "";
 
   let firstItem = document.querySelector("#first_item");
-  if (firstItem && firstItem.querySelector(".actual_text").innertext.trim()!="NoTasksRightNow") firstItem.remove();
+  let firstch = document.querySelector("#first_ch");
+  if (firstItem && firstch.innerText === "No Tasks Right Now") {
+      firstItem.remove();
+  }
 }
 }
