@@ -72,7 +72,7 @@ function funn(){
 
   let firstItem = document.querySelector("#first_item");
   let firstch = document.querySelector("#first_ch");
-  if (firstItem && firstch.innerText === "No Tasks Right Now") {
+  if (firstItem) {
       firstItem.remove();
   }
 }
