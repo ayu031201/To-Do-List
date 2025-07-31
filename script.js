@@ -71,6 +71,6 @@ function funn(){
   document.querySelector(".input_area").value = "";
 
   let firstItem = document.querySelector("#first_item");
-  if (firstItem) firstItem.remove();
+  if (firstItem && firstItem.querySelector(".actual_text").innertext.trim()!="NoTasksRightNow") firstItem.remove();
 }
 }
