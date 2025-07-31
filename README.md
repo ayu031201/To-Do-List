@@ -6,7 +6,6 @@ A simple and clean To-Do List web application built using **HTML**, **CSS**, and
 
 - ✅ Add new tasks
 - 🗑️ Delete tasks
-- ✏️ Mark tasks as complete/incomplete
 - 📱 Responsive design (works on mobile and desktop)
 
 ## 📸 Preview
