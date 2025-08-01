@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme{
+    --color-body: #F7FFDD;
+    --color-ander: hsl(110, 29%, 85%);
+    --color-purple:  #c59dfe;
+    --color-inputbox: #f7faef;
+    --color-task: #FFEFD5;
+}
