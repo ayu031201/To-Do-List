@@ -1,55 +1,80 @@
-# 📝 To-Do List (Vanilla JavaScript)
+# 📝 To-Do List (React)
 
-A simple and clean To-Do List web application built using **HTML**, **CSS**, and **Vanilla JavaScript**. This app helps users to keep track of daily tasks with basic functionality like adding, deleting, and marking tasks as completed.
+A sleek and minimal To-Do List web application built using **React** and **Tailwind CSS**. This app allows users to manage their daily tasks efficiently with a clean UI and smooth user interactions.
 
 ## 🚀 Features
 
-- ✅ Add new tasks
-- 🗑️ Delete tasks
-- 📱 Responsive design (works on mobile and desktop)
+- ✅ Add new tasks  
+- 🗑️ Delete tasks  
+- ✏️ Edit existing tasks   
+- 🧭 Smart scrollbar (appears only when needed)  
+- 📱 Fully responsive design  
 
-## 📸 Preview
+## 🔗 Live Preview
 
-Hosted on Vercel Link - https://to-do-list-ten-silk-48.vercel.app/
+Hosted on Vercel → [Click to open](https://to-do-list-0312.vercel.app/)
 
 ## 🛠️ Tech Stack
 
-- **HTML5**
-- **CSS3**
-- **Vanilla JavaScript (ES6)**
+- ⚛️ **React (Vite)**
+- 🎨 **Tailwind CSS**
+- 🧠 **useState**, **useRef**, and event-driven state handling
 
 ## 📁 Folder Structure
 
-todo-list/
-
-├── index.html
-
-├── style.css
-
-├── script.js
-
+```
+todo-list-react/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   └── TaskList.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── package.json
+├── tailwind.config.js
 └── README.md
-
+```
 
 ## 💡 How to Use
 
-1. Clone this repository:
+1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/todo-list.git
+   git clone https://github.com/yourusername/todo-list-react.git
+   ```
 
-2. Navigate into the project folder:
+2. Navigate into the project directory:
    ```bash
-   cd todo-list
+   cd todo-list-react
+   ```
 
-3. Open index.html in your browser:
+3. Install dependencies:
    ```bash
-   open index.html
+   npm install
+   ```
 
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-📌 Future Improvements
--  Edit existing tasks
--  Add task deadlines and reminders
--  Add categories or tags for tasks
+5. Open your browser at:
+   ```
+   http://localhost:5173
+   ```
 
-🤝 Contributing
-Contributions are welcome! Please open an issue or submit a pull request.
+## 📌 Future Improvements
+
+- ⏰ Add task deadlines and reminders  
+- 🗂️ Add tags or categories for tasks  
+- 🔄 Drag and drop task ordering  
+- ☁️ Sync with localStorage or backend  
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork the repo and submit a pull request or open an issue with suggestions.
+
+---
+
+**Built with ❤️ using React + Tailwind**
