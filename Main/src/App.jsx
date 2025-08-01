@@ -31,12 +31,12 @@ function App() {
 
   return (
     <div className="bg-body w-full h-screen py-10 hover:bg-body">
-      <div className="w-80 h-80 bg-ander m-auto rounded-xl py-4 border-2 border-black overflow-y-auto overflow-x-hidden shadow-[2px_2px_0px_black]">
+      <div className="w-80 h-100 bg-ander m-auto rounded-xl py-4 border-2 border-black overflow-y-auto overflow-x-hidden shadow-[2px_2px_0px_black]">
         <div className="m-auto w-70 h-7 bg-purple hover:bg-purple-500 rounded-xl text-center border-1 border-black shadow-[2px_2px_0px_black]"> 
 
           <h1 className='font-bold'>My To Do List</h1>
 
-          <div className="h-68 px-1">
+          <div className="h-87 px-1">
 
             <h1 className='text-sm pt-4 pb-2.5 font-bold'>Enter a Task:</h1>
             <div className='flex w-74'>
